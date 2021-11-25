@@ -6,6 +6,7 @@
 #about-container-inner {
     display: grid;
     grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
     height: 100%;
     width: 80%;
     margin: 0px auto;
@@ -18,6 +19,9 @@
     height: 55px;
     border-radius: 4px;
     padding: 1em;
+}
+.main-nav {
+    border: 2px solid rgba(128, 128, 128, 0.432) !important;
 }
 .welcome-txt {
     color: white;
@@ -59,7 +63,4 @@
 }
 .inline {
     display: flex !important; 
-}
-.border {
-    border: 2px solid rgba(128, 128, 128, 0.432) !important;
 }
